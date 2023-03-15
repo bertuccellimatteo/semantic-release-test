@@ -1,9 +1,14 @@
 const express = require("express");
+const { join } = require("node:path");
 
 const app = express();
 
 app.get("/", (_req, res) => {
   return res.json({ ok: true });
+});
+
+app.get("/package.json", (_req, res) => {
+  return res.sendFile(join(__dirname, "..", "package.json"));
 });
 
 app.listen(3030, () => {
