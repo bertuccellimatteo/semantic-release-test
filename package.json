@@ -1,0 +1,17 @@
+{
+  "name": "@bertuccellimatteo/test",
+  "repository": "https://",
+  "private": true,
+  "scripts": {
+    "postinstall": "husky install"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "husky": "^8.0.3"
+  },
+  "packageManager": "yarn@3.4.1"
+}
