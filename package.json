@@ -1,7 +1,7 @@
 {
-  "name": "@bertuccellimatteo/test",
+  "name": "@bertuccellimatteo/semantic-release-test",
   "version": "0.0.0-development",
-  "repository": "https://github.com/bertuccellimatteo/test",
+  "repository": "https://github.com/bertuccellimatteo/semantic-release-test",
   "private": true,
   "scripts": {
     "postinstall": "husky install"

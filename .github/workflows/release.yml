@@ -27,7 +27,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/bertuccellimatteo/test/test
+          images: ghcr.io/bertuccellimatteo/semantic-release-test/semantic-release-test
           tags: |
             type=ref,event=branch
             type=ref,event=pr

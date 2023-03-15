@@ -32,9 +32,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@bertuccellimatteo/test@workspace:.":
+"@bertuccellimatteo/semantic-release-test@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@bertuccellimatteo/test@workspace:."
+  resolution: "@bertuccellimatteo/semantic-release-test@workspace:."
   dependencies:
     "@commitlint/cli": ^17.4.4
     "@commitlint/config-conventional": ^17.4.4
