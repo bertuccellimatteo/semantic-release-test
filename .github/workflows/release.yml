@@ -40,7 +40,9 @@ jobs:
       - name: Semantic Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: yarn semantic-release
+        run: |
+          yarn install
+          yarn semantic-release
       - name: Push Docker image
         uses: docker/build-push-action@v4
         with:
